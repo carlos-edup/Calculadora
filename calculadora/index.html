@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Calculadora</h1>
+        </header>
+        <section>
+            <div class="conteiner">
+                <div id="resp"></div>
+            </div>
+            <div class="gridconteiner">
+                <button id="apgpu" onclick="back()" onkeypress="apagar1('')"><i class="bi bi-backspace-fill border"></i>
+                <button id="apgt" onclick="clean()"><div class="border" onclick="clean()">CE</div></button>
+                <button id="apgtdn" onclick="clean()"><i class="bi bi-c-square-fill border"></i></button>
+                <button id="dv" onclick="insert('/')"><div class="border">/</div></button>
+                <button id="7" onclick="insert('7')"><div class="border">07</div></button>
+                <button id="8" onclick="insert('8')"><div class="border">08</div></button>
+                <button id="9" onclick="insert('9')"><div class="border">09</div></button>
+                <button id="ptc" onclick="insert('**')"><div class="border">**</div></button>
+                    <button id="4" onclick="insert('4')"><div class="border">04</div>
+                        <button id="5" onclick="insert('5')"><div class="border">05</div></button>
+                            <button id="6" onclick="insert('6')"><div class="border">06</div></button>
+                <button id="mpc" onclick="insert('*')"><div class="border">*</div></button>
+                <button id="1" onclick="insert('1')"><div class="border">01</div></button>
+                <button id="2" onclick="insert('2')"><div class="border">02</div></button>
+                <button id="3" onclick="insert('3')"><div class="border">03</div></button>
+                <button id="dmn" onclick="insert('-')"><div class="border">-</div></button>
+                <button id="0" onclick="insert('0')"><div class="borde cont2">0</div></button>
+                <button id="." onclick="insert('.')"><div class="border">.</div></button>
+                <button id="add" id="+" onclick="insert('+')"><div class="border">+</div></button>
+            <button id="rest" onclick="calcular()"><div class="border">=</div></button>
+            </div>
+        
+        </section>
+        <footer>
+            <p>&copy; Carlos Eduardo</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

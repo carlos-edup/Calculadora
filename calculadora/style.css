@@ -1,0 +1,76 @@
+body {
+    background-image: url("./fundo 2.jpg");
+    font: normal 15pt consolas;
+    height: 100vh;
+}
+
+div {
+    display: inline-flexbox;
+    margin: auto;
+        text-align: center
+}
+
+header{
+    background-color: white;
+    width: 400px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: auto;
+}
+section {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+background: rgba(0, 0, 0, 0.705);
+border-radius: 10px;
+padding: 15px;
+width: 500px;
+margin: auto;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616); 
+display: grid;
+}
+footer {
+    background-color: white;
+    width: 400px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-style: italic;
+    margin: auto;
+}
+
+.gridconteiner{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.cont2 {
+    grid-template-rows: 100px 100px 100px 100px;
+}
+
+button{
+    color: white;
+    background-color: black;
+    padding: 36.9px;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 2px;
+}
+.conteiner {
+    display: grid;
+    margin: auto;
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+    border-radius: 20px;
+    width: 500px;
+    height: 125px;
+
+}
+
+button:hover {
+    background-color: rgb(48, 48, 48);
+}
+
